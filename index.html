@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fa-solid fa-signs-post"></i></a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search" id="searchBox">
+            <label for="searchBox" class="fas fa-search"></label>
+        </form>
+
+        <div class="icon">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-moon" id="color-mode"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#pricing">pricing</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <form action="" class="login-form">
+            <div class="inputBox">
+                <span>username</span>
+                <input type="text" placeholder="enter name">
+            </div>
+
+            <div class="inputBox">
+                <span>password</span>
+                <input type="text" placeholder="enter password">
+            </div>
+
+            <input type="submit" class="btn" value="login">
+
+        </form>
+
+
+    </header>
+
+
+    <section class="home" id="home">
+
+        <div class="image">
+            <img src="Travelers-pana.svg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Embark on Adventure: Your Journey, Your Way!</h3>
+            <p>Experience the freedom to explore with our trip app, where each destination is a new story waiting to be written. From seamless planning to unforgettable moments, let us be your companion on the road of discovery.</p>
+            <a href="#" class="btn">Explore Now</a>
+        </div>
+
+    </section>
+
+    <section class="form-container">
+        <form action="">
+            <div class="inputBox">
+                <span>where to</span>
+                <input type="text" placeholder="search place">
+            </div>
+
+            <div class="inputBox">
+                <span>departure</span>
+                <input type="date">
+            </div>
+
+            <div class="inputBox">
+                <span>arrival</span>
+                <input type="date">
+            </div>
+
+            <input type="submit" value="book now" class="btn">
+
+        </form>
+    </section>
+
+
+    <section class="packages" id="packages">
+        <h1 class="heading"> our <span>packages</span> </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="mumbai.jpeg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                </div>
+                <div class="content">
+                    <div class="price">
+                        15000 <span>25000</span>
+                    </div>
+                    <p>Mumbai, the bustling metropolis on India's western coast, blends vibrant urban life with iconic landmarks like the Gateway of India.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="andaman.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Andaman & Nicobar </h3>
+                </div>
+                <div class="content">
+                    <div class="price">
+                        15000 <span>25000</span>
+                    </div>
+                    <p>Andaman Islands, a tropical paradise in the Bay of Bengal, offer pristine beaches and rich marine life, making it an idyllic getaway.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Jaisalmer.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Jaisalmer </h3>
+                </div>
+                <div class="content">
+                    <div class="price">
+                        15000 <span>25000</span>
+                    </div>
+                    <p>
+                        Jaisalmer, in the heart of Thar Desert, mesmerizes with majestic forts, havelis, ancient Jain temples, and sparkling sand dunes.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="MYSORE.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Mysore </h3>
+                </div>
+                <div class="content">
+                    <div class="price">
+                        15000 <span>25000</span>
+                    </div>
+                    <p>Mysore, the 'City of Palaces,' boasts a vibrant history and rich arts, alluring tourists with grand palaces and majestic temples.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="gangtok.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Gangtok </h3>
+                </div>
+                <div class="content">
+                    <div class="price">
+                        15000 <span>25000</span>
+                    </div>
+                    <p>Gangtok, Sikkim's largest town, dazzles with Buddhist monasteries, glacial lakes, and stunning Himalayan mountain views.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="agra.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Agra </h3>
+                </div>
+                <div class="content">
+                    <div class="price">
+                        15000 <span>25000</span>
+                    </div>
+                    <p>Agra, nestled on the Yamuna River banks, welcomes with Mughal-era structures, including one of the Seven Wonders of the World.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            our <span>services</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span>01</span>
+                <i class="fas fa-hotel"></i>
+                <h3>Hotels</h3>
+                <p>Book Domestic and International Property Online.</p>
+            </div>
+
+            <div class="box">
+                <span>02</span>
+                <i class="fa-solid fa-house"></i>
+                <h3>Homestays</h3>
+                <p>Book your ideal Homestay - Villas, Apartments & more.</p>
+            </div>
+
+            <div class="box">
+                <span>03</span>
+                <i class="fa-solid fa-plane-departure"></i>
+                <h3>Flights</h3>
+                <p> It's super-easy to avail budget airfare while booking your cheap flight tickets</p>
+            </div>
+
+            <div class="box">
+                <span>04</span>
+                <i class="fa-solid fa-train-subway"></i>
+                <h3>Trains</h3>
+                <p>Book Train Tickets Without Any Hassle</p>
+            </div>
+
+            <div class="box">
+                <span>05</span>
+                <i class="fa-solid fa-bus"></i>
+                <h3>Busses</h3>
+                <p>Journey with Ease: Your Bus, Your Seat, Your Way!</p>
+            </div>
+
+            <div class="box">
+                <span>06</span>
+                <i class="fa-solid fa-taxi"></i>
+                <h3>Cabs</h3>
+                <p>Providing a seamless and reliable transportation experience for our users.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <h1 class="heading">
+            our <span>pricing</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <h3> basic plan </h3>
+                <div class="price">
+                    <span>₹</span>
+                    <span class="amount">5000</span>
+                    <span>/mo</span>
+                </div>
+                <ul>
+                    <li>7 days</li>
+                    <li>food and drinks</li>
+                    <li>safety guide</li>
+                    <li>insurance</li>
+                    <li>hotel</li>
+                </ul>
+                <a href="#" class="btn"> select plan</a>
+            </div>
+
+            <div class="box">
+                <h3> standard plan </h3>
+                <div class="price">
+                    <span>₹</span>
+                    <span class="amount">8000</span>
+                    <span>/mo</span>
+                </div>
+                <ul>
+                    <li>10 days</li>
+                    <li>Meals and Beverages</li>
+                    <li>Local Guide Services</li>
+                    <li>Basic insurance coverage</li>
+                    <li>Comfortable Hotel Accommodation</li>
+                </ul>
+                <a href="#" class="btn"> select plan</a>
+            </div>
+
+            <div class="box">
+                <h3> luxury plan </h3>
+                <div class="price">
+                    <span>₹</span>
+                    <span class="amount">15000</span>
+                    <span>/mo</span>
+                </div>
+                <ul>
+                    <li>14 days</li>
+                    <li>Gourmet Dining Experience</li>
+                    <li>Personal Concierge and Guided Tours</li>
+                    <li>Comprehensive travel insurance</li>
+                    <li>Luxurious 5-star hotel Accommodation</li>
+                </ul>
+                <a href="#" class="btn"> select plan</a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            user <span>review</span>
+        </h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="user1.JPG" alt="">
+                    <h3>Shirley</h3>
+                    <p>Incredible journey with this travel agency! Seamless planning, breathtaking destinations, and exceptional service – they made our dream vacation a reality.</illo></p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="user2.JPG" alt="">
+                    <h3>Kaushik</h3>
+                    <p>Highly recommend this travel agency! From personalized itineraries to impeccable attention to detail, every trip becomes a memorable adventure with their expert guidance.</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="user3.JPG" alt="">
+                    <h3>Rebecca</h3>
+                    <p>Outstanding travel agency! Their knowledgeable staff curated an unforgettable experience, combining cultural immersion, stunning landscapes, and top-notch accommodations.</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="user4.JPG" alt="">
+                    <h3>Vivek</h3>
+                    <p>Exceptional service from start to finish! This travel agency exceeded our expectations, ensuring a smooth and enjoyable expedition, leaving us with cherished memories.</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> us </h1>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+
+            <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="send" class="btn">
+
+        </form>
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Hyderabad </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Chennai </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Bengaluru </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Bombay </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Kochi </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"><i class="fas fa-chevron-right"></i> home</a>
+                <a href="#"><i class="fas fa-chevron-right"></i> packages</a>
+                <a href="#"><i class="fas fa-chevron-right"></i> services</a>
+                <a href="#"><i class="fas fa-chevron-right"></i> pricing</a>
+                <a href="#"><i class="fas fa-chevron-right"></i> review</a>
+                <a href="#"><i class="fas fa-chevron-right"></i> contact</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>0000000000</a>
+                <a href="#"> <i class="fas fa-phone"></i>1111111111</a>
+                <a href="#"> <i class="fa-solid fa-envelope"></i>something@gmail.com</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i>Hyderabad, India</a>
+            </div>
+            <div class="box">
+                <h3>follow at</h3>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                <a href="#"> <i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-facebook"></i> </a>
+                <!-- add social media handles and other stuff -->
+
+            </div>
+
+        </div>
+
+        <div class="done-by">a project by <span>Bheemeswara</span> | <span>Siddhartha</i></span> | <span>Karthik</span> </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
